@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XiaoYuanXiaoZhan.Utils
+namespace XiaoYuanXiaoZhan.Utils.Const
 {
-    public class Class1
+    public enum ExcelTypeEnum
     {
+        XLS =0,
+        XLSX
     }
 }
