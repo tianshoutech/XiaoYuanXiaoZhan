@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.0.7" />
     <PackageReference Include="npoi" Version="2.4.0" />
   </ItemGroup>
 

@@ -396,7 +396,6 @@ namespace XiaoYuanXiaoZhan.Utils.Implement
                 pictureIdx = wb.AddPicture(pic.Datas, pic.PicType);
                 HSSFPatriarch patriarch = (HSSFPatriarch)sheet.CreateDrawingPatriarch();
                 HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, pic.Weight, pic.Height, pic.StartCol, pic.StartRow, pic.EndCol, pic.EndRow);
-                //##处理照片位置，【图片左上角为（col, row）第row+1行col+1列，右下角为（ col +1, row +1）第 col +1+1行row +1+1列，宽为100，高为50
                 HSSFPicture pict = (HSSFPicture)patriarch.CreatePicture(anchor, pictureIdx);
 
                 if (pic.IsResize)
