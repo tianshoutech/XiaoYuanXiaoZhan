@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="npoi" Version="2.4.0" />
+    <ProjectReference Include="..\XiaoYuanXiaoZhan.Utils\XiaoYuanXiaoZhan.Utils.csproj" />
   </ItemGroup>
 
 </Project>
